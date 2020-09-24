@@ -13,6 +13,10 @@
 		0773AC01251CFA5000F646A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0773AC00251CFA5000F646A9 /* Assets.xcassets */; };
 		0773AC04251CFA5000F646A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0773AC03251CFA5000F646A9 /* Preview Assets.xcassets */; };
 		0773AC07251CFA5000F646A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0773AC05251CFA5000F646A9 /* LaunchScreen.storyboard */; };
+		0773AC10251CFB2A00F646A9 /* YogaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773AC0F251CFB2A00F646A9 /* YogaVC.swift */; };
+		0773AC12251CFB4400F646A9 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773AC11251CFB4400F646A9 /* ChatsVC.swift */; };
+		0773AC14251CFB5200F646A9 /* ArticlesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773AC13251CFB5200F646A9 /* ArticlesVC.swift */; };
+		0773AC16251CFB6200F646A9 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0773AC15251CFB6200F646A9 /* SettingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0773AC03251CFA5000F646A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0773AC06251CFA5000F646A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0773AC08251CFA5000F646A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0773AC0F251CFB2A00F646A9 /* YogaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaVC.swift; sourceTree = "<group>"; };
+		0773AC11251CFB4400F646A9 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
+		0773AC13251CFB5200F646A9 /* ArticlesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesVC.swift; sourceTree = "<group>"; };
+		0773AC15251CFB6200F646A9 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,13 @@
 		0773ABF9251CFA4F00F646A9 /* EddieYoga */ = {
 			isa = PBXGroup;
 			children = (
-				0773ABFA251CFA4F00F646A9 /* AppDelegate.swift */,
-				0773ABFC251CFA4F00F646A9 /* SceneDelegate.swift */,
-				0773ABFE251CFA4F00F646A9 /* ContentView.swift */,
-				0773AC00251CFA5000F646A9 /* Assets.xcassets */,
-				0773AC05251CFA5000F646A9 /* LaunchScreen.storyboard */,
-				0773AC08251CFA5000F646A9 /* Info.plist */,
+				0773AC0E251CFAD300F646A9 /* general */,
 				0773AC02251CFA5000F646A9 /* Preview Content */,
+				0773ABFE251CFA4F00F646A9 /* ContentView.swift */,
+				0773AC0F251CFB2A00F646A9 /* YogaVC.swift */,
+				0773AC11251CFB4400F646A9 /* ChatsVC.swift */,
+				0773AC13251CFB5200F646A9 /* ArticlesVC.swift */,
+				0773AC15251CFB6200F646A9 /* SettingVC.swift */,
 			);
 			path = EddieYoga;
 			sourceTree = "<group>";
@@ -73,6 +81,18 @@
 				0773AC03251CFA5000F646A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0773AC0E251CFAD300F646A9 /* general */ = {
+			isa = PBXGroup;
+			children = (
+				0773ABFA251CFA4F00F646A9 /* AppDelegate.swift */,
+				0773ABFC251CFA4F00F646A9 /* SceneDelegate.swift */,
+				0773AC00251CFA5000F646A9 /* Assets.xcassets */,
+				0773AC05251CFA5000F646A9 /* LaunchScreen.storyboard */,
+				0773AC08251CFA5000F646A9 /* Info.plist */,
+			);
+			path = general;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0773AC12251CFB4400F646A9 /* ChatsVC.swift in Sources */,
+				0773AC16251CFB6200F646A9 /* SettingVC.swift in Sources */,
+				0773AC10251CFB2A00F646A9 /* YogaVC.swift in Sources */,
 				0773ABFB251CFA4F00F646A9 /* AppDelegate.swift in Sources */,
 				0773ABFD251CFA4F00F646A9 /* SceneDelegate.swift in Sources */,
 				0773ABFF251CFA4F00F646A9 /* ContentView.swift in Sources */,
+				0773AC14251CFB5200F646A9 /* ArticlesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
